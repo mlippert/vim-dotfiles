@@ -1,0 +1,15 @@
+" Turn of wrap and turn on the bottom scrollbar
+set nowrap
+set guioptions+=b
+
+if has("gui_running")
+  if has("gui_gtk2")
+    if has("win32unix")
+      set guifont=Consolas\ 9
+    elseif
+      set guifont=Inconsolata\ 10
+    endif
+  elseif has("gui_win32")
+    set guifont=Consolas:h9:cDEFAULT
+  endif
+endif
