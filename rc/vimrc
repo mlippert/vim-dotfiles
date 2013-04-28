@@ -1,5 +1,7 @@
 " Some interesting settings I'm using were found in:
 "  - https://github.com/rzhw/dotfiles/blob/master/vim/vimrc
+
+" pathogen is maintained by Tim Pope at https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 
 let mapleader = ","
@@ -10,18 +12,28 @@ set backupdir=~/.vim/tmp//
 set directory=~/.vim/tmp//
 
 "set number      " Line numbers
-set ruler       " Show current line number and char
-set backspace=2 " Conventional backspace behaviour
+set ruler        " Show current line number and char
+set backspace=2  " Conventional backspace behaviour
 set scrolloff=3
 
 set encoding=utf-8
 set laststatus=2
 
-syntax on
 filetype plugin indent on
+
+syntax enable
+
+colorscheme solarized
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
 
 set tabstop=4 shiftwidth=4 smarttab
 set autoindent smartindent
+
+set listchars=tab:>-,trail:-
 
 " custom status line from
 "  http://www.wezm.net/technical/2008/09/pimping-vim-on-windows/
