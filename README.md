@@ -48,14 +48,25 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 
 ### color schemes ###
 
-<!-- reference links section -->
-[supertab]:		<https://github.com/ervandew/supertab>					"supertab plugin on github"
-[solarized]:	<https://github.com/altercation/vim-colors-solarized>	"solarized plugin on github"
-[jsbeautify]:	<https://github.com/maksimr/vim-jsbeautify>				"vim-jsbeautify plugin on github"
-[vim-jsdoc]:	<https://github.com/heavenshell/vim-jsdoc>				"vim-jsdoc plugin on github"
-[fugitive]:		<http://vimcasts.org/blog/2011/05/the-fugitive-series/>	"article on vim fugitive plugin"
-[vim-markdown]:	<https://github.com/plasticboy/vim-markdown>			"vim-markdown plugin by plasticboy on github"
-[js-syntax-j]:	<https://github.com/jelera/vim-javascript-syntax>		"jelera's javascript syntax file on github"
-[js-syntax-pg]:	<https://github.com/pangloss>							"pangloss's javascript syntax file on github"
-[vimorg-4452]:	<http://www.vim.org/scripts/script.php?script_id=4452>	"vim.org javascript syntax file"
-[vivify]:		<http://bytefluent.com/vivify/> "web tool to create vim color schemes"
+
+
+[supertab]:		<https://github.com/ervandew/supertab>
+				"supertab plugin on github"
+[solarized]:	<https://github.com/altercation/vim-colors-solarized>
+				"solarized plugin on github"
+[jsbeautify]:	<https://github.com/maksimr/vim-jsbeautify>
+				"vim-jsbeautify plugin on github"
+[vim-jsdoc]:	<https://github.com/heavenshell/vim-jsdoc>
+				"vim-jsdoc plugin on github"
+[fugitive]:		<http://vimcasts.org/blog/2011/05/the-fugitive-series/>
+				"article on vim fugitive plugin"
+[vim-markdown]:	<https://github.com/plasticboy/vim-markdown>
+				"vim-markdown plugin by plasticboy on github"
+[js-syntax-j]:	<https://github.com/jelera/vim-javascript-syntax>
+				"jelera's javascript syntax file on github"
+[js-syntax-pg]:	<https://github.com/pangloss>
+				"pangloss's javascript syntax file on github"
+[vimorg-4452]:	<http://www.vim.org/scripts/script.php?script_id=4452>
+				"vim.org javascript syntax file"
+[vivify]:		<http://bytefluent.com/vivify/>
+				"web tool to create vim color schemes"
