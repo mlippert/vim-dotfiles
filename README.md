@@ -38,9 +38,10 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 
 ### Plugins ###
 - [vim-jsdoc plugin][vim-jsdoc]
-- [fugitive article][fugitive]
+- [fugitive article][fugitive] : I've read the article, and for now anyway, I don't think I need this plugin.
 - [vim-markdown plugin][vim-markdown]
 - [vim-session plugin][vim-session]
+- [LustyJuggler][lustyjuggler] : it's been recommended to use buffers w/ a plugin like this one rather than tabs.
 
 ### syntax files ###
 - [vim-javascript][js-syntax-j] by jelera
@@ -62,4 +63,5 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 [vimorg-4452]: <http://www.vim.org/scripts/script.php?script_id=4452> "vim.org javascript syntax file"
 [vim-session]: <https://github.com/xolox/vim-session> "vim-session on github"
 [taglist]: <http://vim-taglist.sourceforge.net/> "tag-list plugin on sourceforge"
+[lustyjuggler]: <https://github.com/vim-scripts/LustyJuggler> "lustyjuggler plugin on github"
 [vivify]: <http://bytefluent.com/vivify/> "web tool to create vim color schemes"
