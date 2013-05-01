@@ -1,4 +1,3 @@
-
 vim-dotfiles
 ============
 
@@ -25,6 +24,7 @@ These plugins are git submodules.
 - [supertab][]
 - [vim-colors-solarized][solarized]
 - [vim-jsbeautify][jsbeautify]
+- [taglist][]
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
@@ -40,6 +40,7 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 - [vim-jsdoc plugin][vim-jsdoc]
 - [fugitive article][fugitive]
 - [vim-markdown plugin][vim-markdown]
+- [vim-session plugin][vim-session]
 
 ### syntax files ###
 - [vim-javascript][js-syntax-j] by jelera
@@ -59,4 +60,6 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 [js-syntax-j]: <https://github.com/jelera/vim-javascript-syntax> "jelera's javascript syntax file on github"
 [js-syntax-pg]: <https://github.com/pangloss> "pangloss's javascript syntax file on github"
 [vimorg-4452]: <http://www.vim.org/scripts/script.php?script_id=4452> "vim.org javascript syntax file"
+[vim-session]: <https://github.com/xolox/vim-session> "vim-session on github"
+[taglist]: <http://vim-taglist.sourceforge.net/> "tag-list plugin on sourceforge"
 [vivify]: <http://bytefluent.com/vivify/> "web tool to create vim color schemes"
