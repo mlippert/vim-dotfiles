@@ -6,7 +6,8 @@ set guioptions+=b
 " wrapped lines when wrap is on.
 " set listchars=tab:»·,trail:·
 set listchars=tab:⇢‧,trail:‧
-let &showbreak = '↳ '
+" let &showbreak = '↳ '
+let &showbreak = '╪╡ '
 
 " for other possible fonts see:
 " http://www.codinghorror.com/blog/2004/12/progamming-fonts.html
