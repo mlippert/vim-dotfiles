@@ -50,7 +50,8 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 
 ### color schemes ###
 
-
+### other people's vim configurations ###
+[The perfect .vimrc vim config file][spf13] last updated May 2011
 
 [supertab]: <https://github.com/ervandew/supertab> "supertab plugin on github"
 [solarized]: <https://github.com/altercation/vim-colors-solarized> "solarized plugin on github"
@@ -65,3 +66,5 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 [taglist]: <http://vim-taglist.sourceforge.net/> "tag-list plugin on sourceforge"
 [lustyjuggler]: <https://github.com/vim-scripts/LustyJuggler> "lustyjuggler plugin on github"
 [vivify]: <http://bytefluent.com/vivify/> "web tool to create vim color schemes"
+[spf13]: <http://spf13.com/post/perfect-vimrc-vim-config-file> "Article on Steve Francia's blog about his vimrc"
+
