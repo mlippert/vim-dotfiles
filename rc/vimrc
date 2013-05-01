@@ -8,8 +8,14 @@ let mapleader = ","
 
 " put all backup and swap files in the tmp directory and include the path
 " (trailing double slash) so duplicate names don't clash
-set backupdir=~/.vim/tmp//
-set directory=~/.vim/tmp//
+set backup
+if has("gui_win32")
+    set backupdir=~/vimfiles/tmp//
+    set directory=~/vimfiles/tmp//
+else
+    set backupdir=~/.vim/tmp//
+    set directory=~/.vim/tmp//
+endif
 
 "set number      " Line numbers
 set ruler        " Show current line number and char
