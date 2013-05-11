@@ -17,6 +17,9 @@ else
     set directory=~/.vim/tmp//
 endif
 
+" Allow windowless unsaved buffers
+set hidden
+
 "set number      " Line numbers
 set ruler        " Show current line number and char
 set backspace=2  " Conventional backspace behaviour
