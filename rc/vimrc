@@ -51,6 +51,8 @@ function! ChangePaste(type, ...)
     silent exe "normal! p"
 endfunction
 
+nmap <F8> :TlistToggle<CR>
+
 " custom status line from
 "  http://www.wezm.net/technical/2008/09/pimping-vim-on-windows/
 "  Not sure I love it, so commenting it out -mjl
