@@ -20,6 +20,7 @@ if has("gui_running")
     endif
   elseif has("gui_win32")
     set guifont=Consolas:h8:cDEFAULT
+	set lines=50 columns=110
   endif
 endif
 
