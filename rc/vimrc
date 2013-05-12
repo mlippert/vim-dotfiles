@@ -55,6 +55,11 @@ function! ChangePaste(type, ...)
 endfunction
 
 nmap <F8> :TlistToggle<CR>
+nnoremap <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+noremap <silent> <F12> :LustyJuggler<CR>
+
+" set LustyJuggler to select the previous buffer so that enter will open it.
+let g:LustyJugglerAltTabMode = 1
 
 " custom status line from
 "  http://www.wezm.net/technical/2008/09/pimping-vim-on-windows/

@@ -27,6 +27,7 @@ These plugins are git submodules as recommended on [Vim Cast #27][submodules].
 - [taglist][]
 - [LustyJuggler][lustyjuggler] : it's been recommended to use buffers w/ a plugin like this one rather than tabs.
 - [NERDTree][]
+- [vim-session][]
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
@@ -41,6 +42,8 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 #### Command mode ####
 - &lt;F8> - toggle the taglist window
 - cp{motion} - Change by putting whats in the default("") yank buffer.
+- &lt;leader>d - :NERDTreeToggle (File explorer)
+- &lt;F12> - :LustyJuggler (open buffer list)
 
 ## Future investigation ##
 
@@ -48,7 +51,6 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 - [vim-jsdoc plugin][vim-jsdoc]
 - [fugitive article][fugitive] : I've read the article, and for now anyway, I don't think I need this plugin.
 - [vim-markdown plugin][vim-markdown]
-- [vim-session plugin][vim-session]
 
 ### syntax files ###
 - [vim-javascript][js-syntax-j] by jelera
@@ -82,3 +84,4 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [spf13]: <http://spf13.com/post/perfect-vimrc-vim-config-file> "Article on Steve Francia's blog about his vimrc"
 [NERDTree]: <https://github.com/scrooloose/nerdtree> "NERDTree plugin on github"
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
+

@@ -30,6 +30,9 @@
 *.bak
 *~
 
+# Sessions created by vim-session #
+sessions/*
+
 # Logs and databases #
 ######################
 *.log
