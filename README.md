@@ -28,6 +28,8 @@ These plugins are git submodules as recommended on [Vim Cast #27][submodules].
 - [LustyJuggler][lustyjuggler] : it's been recommended to use buffers w/ a plugin like this one rather than tabs.
 - [NERDTree][]
 - [vim-session][]
+- [surround][] : This [article][surround-article describes it.
+- [Ultisnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now.
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
@@ -83,5 +85,9 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [vivify]: <http://bytefluent.com/vivify/> "web tool to create vim color schemes"
 [spf13]: <http://spf13.com/post/perfect-vimrc-vim-config-file> "Article on Steve Francia's blog about his vimrc"
 [NERDTree]: <https://github.com/scrooloose/nerdtree> "NERDTree plugin on github"
+[surround]: <https://github.com/tpope/vim-surround> "surround plugin on github"
+[surround-article]: <http://www.catonmat.net/blog/vim-plugins-surround-vim/> "Peteris Krumins' blog article on the surround plugin"
+[ultisnips]: <https://github.com/SirVer/ultisnips> "Ultisnips plugin mirror on github"
+[snipmate-ultisnips]: <https://groups.google.com/forum/?fromgroups#!topic/vim_use/1-JNVqgNr5s> "Marc Weber comments on moving to Ultisnips"
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
 
