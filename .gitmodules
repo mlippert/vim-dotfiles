@@ -13,6 +13,12 @@
 [submodule "bundle/vim-session"]
 	path = bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule "bundle/xolox-misc"]
+	path = bundle/xolox-misc
+	url = https://github.com/xolox/vim-misc.git
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = git@github.com:mlippert/ultisnips.git
