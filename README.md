@@ -53,6 +53,7 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 - [vim-jsdoc plugin][vim-jsdoc]
 - [fugitive article][fugitive] : I've read the article, and for now anyway, I don't think I need this plugin.
 - [vim-markdown plugin][vim-markdown]
+- [TagmaBufMgr][] : I want a visual list of buffers that I can use to close buffers, this may work, not sure if I'd replace lustyjuggler since that's working pretty well for me.
 
 ### syntax files ###
 - [vim-javascript][js-syntax-j] by jelera
@@ -89,5 +90,6 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [surround-article]: <http://www.catonmat.net/blog/vim-plugins-surround-vim/> "Peteris Krumins' blog article on the surround plugin"
 [ultisnips]: <https://github.com/SirVer/ultisnips> "Ultisnips plugin mirror on github"
 [snipmate-ultisnips]: <https://groups.google.com/forum/?fromgroups#!topic/vim_use/1-JNVqgNr5s> "Marc Weber comments on moving to Ultisnips"
+[TagmaBufMgr]: <https://github.com/LStinson/TagmaBufMgr> "TagmaBufMgr plugin on github"
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
 
