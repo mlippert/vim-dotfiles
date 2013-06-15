@@ -62,6 +62,10 @@ noremap <silent> <F12> :LustyJuggler<CR>
 " set LustyJuggler to select the previous buffer so that enter will open it.
 let g:LustyJugglerAltTabMode = 1
 
+" disable the vim-session autoload of the default session
+let g:session_autoload = 'no'
+let g:session_autosave = 'no'
+
 " custom status line from
 "  http://www.wezm.net/technical/2008/09/pimping-vim-on-windows/
 "  Not sure I love it, so commenting it out -mjl
