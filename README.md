@@ -28,8 +28,9 @@ These plugins are git submodules as recommended on [Vim Cast #27][submodules].
 - [LustyJuggler][lustyjuggler] : it's been recommended to use buffers w/ a plugin like this one rather than tabs.
 - [NERDTree][]
 - [vim-session][]
-- [surround][] : This [article][surround-article describes it.
-- [Ultisnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now.
+- [surround][] : This [article][surround-article] describes it.
+- [UltiSnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now.
+- [vim-markdown][] : plasticboy's version [sounds more useful][stkoflw-md] than tpope's.
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
@@ -52,7 +53,6 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 ### Plugins ###
 - [vim-jsdoc plugin][vim-jsdoc]
 - [fugitive article][fugitive] : I've read the article, and for now anyway, I don't think I need this plugin.
-- [vim-markdown plugin][vim-markdown]
 - [TagmaBufMgr][] : I want a visual list of buffers that I can use to close buffers, this may work, not sure if I'd replace lustyjuggler since that's working pretty well for me.
 
 ### syntax files ###
@@ -77,6 +77,7 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [vim-jsdoc]: <https://github.com/heavenshell/vim-jsdoc> "vim-jsdoc plugin on github"
 [fugitive]: <http://vimcasts.org/blog/2011/05/the-fugitive-series/> "article on vim fugitive plugin"
 [vim-markdown]: <https://github.com/plasticboy/vim-markdown> "vim-markdown plugin by plasticboy on github"
+[stkoflw-md]: <http://stackoverflow.com/questions/10964681/enabling-markdown-highlighting-in-vim> "stackoverflow question on vim-markdown"
 [js-syntax-j]: <https://github.com/jelera/vim-javascript-syntax> "jelera's javascript syntax file on github"
 [js-syntax-pg]: <https://github.com/pangloss> "pangloss's javascript syntax file on github"
 [vimorg-4452]: <http://www.vim.org/scripts/script.php?script_id=4452> "vim.org javascript syntax file"
@@ -88,7 +89,7 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [NERDTree]: <https://github.com/scrooloose/nerdtree> "NERDTree plugin on github"
 [surround]: <https://github.com/tpope/vim-surround> "surround plugin on github"
 [surround-article]: <http://www.catonmat.net/blog/vim-plugins-surround-vim/> "Peteris Krumins' blog article on the surround plugin"
-[ultisnips]: <https://github.com/SirVer/ultisnips> "Ultisnips plugin mirror on github"
+[UltiSnips]: <https://github.com/SirVer/ultisnips> "Ultisnips plugin mirror on github"
 [snipmate-ultisnips]: <https://groups.google.com/forum/?fromgroups#!topic/vim_use/1-JNVqgNr5s> "Marc Weber comments on moving to Ultisnips"
 [TagmaBufMgr]: <https://github.com/LStinson/TagmaBufMgr> "TagmaBufMgr plugin on github"
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
