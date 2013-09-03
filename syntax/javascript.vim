@@ -56,7 +56,7 @@ if !exists("javascript_ignore_javaScriptdoc")
   " tags containing references
   syntax match  javaScriptDocTags         contained "@\(lends\|link\|see\)\>" nextgroup=javaScriptDocSeeTag skipwhite
   " other tags (no extra syntax)
-  syntax match  javaScriptDocTags         contained "@\(access\|addon\|alias\|author\|beta\|const\|constant\|constructor\|copyright\|deprecated\|description\|event\|example\|exec\|field\|fileOverview\|fileoverview\|function\|global\|ignore\|inner\|interface\|license\|overview\|private\|protected\|project\|public\|readonly\|since\|static\|todo\)\>"
+  syntax match  javaScriptDocTags         contained "@\(abstract\|access\|addon\|alias\|author\|beta\|classdesc\|const\|constant\|constructor\|copyright\|deprecated\|description\|event\|example\|exec\|export\|expose\|externs\|field\|fileOverview\|fileoverview\|function\|global\|ignore\|inheritDoc\|inner\|interface\|license\|note\|override\|overview\|private\|protected\|project\|public\|readonly\|since\|static\|summary\|todo\|virtual\)\>"
 
   syntax region javaScriptDocType         start="{" end="}" oneline contained nextgroup=javaScriptDocParam skipwhite
   syntax match  javaScriptDocType         contained "\%(#\|\"\|\w\|\.\|:\|\/\)\+" nextgroup=javaScriptDocParam skipwhite
