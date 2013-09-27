@@ -52,7 +52,7 @@ if !exists("javascript_ignore_javaScriptdoc")
   " tags containing type and param
   syntax match  javaScriptDocTags         contained "@\(argument\|param\|property\|typedef\)\>" nextgroup=javaScriptDocType skipwhite
   " tags containing type but no param
-  syntax match  javaScriptDocTags         contained "@\(type\|return\|returns\)\>" nextgroup=javaScriptDocTypeNoParam skipwhite
+  syntax match  javaScriptDocTags         contained "@\(this\|type\|return\|returns\)\>" nextgroup=javaScriptDocTypeNoParam skipwhite
   " tags containing references
   syntax match  javaScriptDocTags         contained "@\(lends\|link\|see\)\>" nextgroup=javaScriptDocSeeTag skipwhite
   " other tags (no extra syntax)
