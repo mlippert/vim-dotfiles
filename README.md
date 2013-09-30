@@ -31,6 +31,8 @@ These plugins are git submodules as recommended on [Vim Cast #27][submodules].
 - [surround][] : This [article][surround-article] describes it.
 - [UltiSnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now.
 - [vim-markdown][] : plasticboy's version [sounds more useful][stkoflw-md] than tpope's.
+- [buffet][] : A buffer management plugin, may replace LustyJuggler. LustyJuggler doesn't handle a lot of buffers well, and doesn't have a way to delete them.
+               [One mention][buffet-stk] in stack overflow w/ sample config.
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
@@ -93,4 +95,6 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [snipmate-ultisnips]: <https://groups.google.com/forum/?fromgroups#!topic/vim_use/1-JNVqgNr5s> "Marc Weber comments on moving to Ultisnips"
 [TagmaBufMgr]: <https://github.com/LStinson/TagmaBufMgr> "TagmaBufMgr plugin on github"
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
+[buffet]: <https://github.com/sandeepcr529/Buffet.vim> "Buffet on github"
+[buffet-stk]: <http://stackoverflow.com/questions/9148887/buffer-explorer-for-vim> "Stack Overflow question w/ response suggesting Buffet"
 
