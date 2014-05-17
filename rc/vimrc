@@ -60,13 +60,12 @@ function! ChangePaste(type, ...)
     silent exe "normal! p"
 endfunction
 
-nmap <F8> :TlistToggle<CR>
+" keep taglist available on ctrl-F8 while putting tagbar on F8
+nmap <S-F8> :TlistToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 nnoremap <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 "noremap <silent> <F12> :LustyJuggler<CR>
 noremap <silent> <F12> :Bufferlistsw<CR>
-
-" set LustyJuggler to select the previous buffer so that enter will open it.
-let g:LustyJugglerAltTabMode = 1
 
 " disable the vim-session autoload of the default session
 let g:session_autoload = 'no'

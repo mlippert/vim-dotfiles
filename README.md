@@ -21,22 +21,26 @@ Make sure that the directory `.vim/tmp` exists for storing backup files
 uses pathogen to install plugins located in `.vim/bundle`.
 These plugins are git submodules as recommended on [Vim Cast #27][submodules].
 
+- [buffet][] : A buffer management plugin, It replaced [LustyJuggler][lustyjuggler]. LustyJuggler doesn't handle a lot of buffers well, and doesn't have a way to delete them.
+               [One mention][buffet-stk] in stack overflow w/ sample config.
+- [UltiSnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now. It has become a staple, I rely on it every day.
+- [vim-snippets][] : Ultisnips extracted the standard snippets they supplied to this plugin.
 - [supertab][]
+- [surround][] : This [article][surround-article] describes it.
 - [vim-colors-solarized][solarized]
 - [vim-jsbeautify][jsbeautify]
 - [taglist][]
-- [LustyJuggler][lustyjuggler] : it's been recommended to use buffers w/ a plugin like this one rather than tabs.
+- [Tagbar][] : may be better for me particularly w/ javascript than taglist. The
+               [wiki][Tagbar-wiki] has information on getting support for specific filetypes.
+               If I can get [jsctags][] installed and working it should improve javascript
+               tag info. However there are [issues][jsctags-issue54].
 - [NERDTree][]
-- [vim-session][]
-- [surround][] : This [article][surround-article] describes it.
-- [UltiSnips][] : the original snipmate author Marc Weber [recommends][snipmate-ultisnips] this snippet plugin now.
 - [vim-markdown][] : plasticboy's version [sounds more useful][stkoflw-md] than tpope's.
-- [buffet][] : A buffer management plugin, may replace LustyJuggler. LustyJuggler doesn't handle a lot of buffers well, and doesn't have a way to delete them.
-               [One mention][buffet-stk] in stack overflow w/ sample config.
+- [vim-session][] : turns out I'm not using this plugin that much. I think it works well, it just turned out my workflow didn't really need sessions.
 
 I have edited the `.vim/javascript.vim` file I originally got from
 <http://vadconf.googlecode.com/svn/trunk/vim/syntax/javascript.vim>
-in order to add some jsdoc tags (interface, implements, typedef, todo).
+in order to add some jsdoc tags (interface, implements, typedef, todo etc.).
 
 Uses the solarized color scheme with a few minor adjustments in `.gvimrc`.
 
@@ -48,7 +52,7 @@ I've put a bunch of color schemes into the `.vim/colors` directory, including on
 - &lt;F8> - toggle the taglist window
 - cp{motion} - Change by putting whats in the default("") yank buffer.
 - &lt;leader>d - :NERDTreeToggle (File explorer)
-- &lt;F12> - :LustyJuggler (open buffer list)
+- &lt;F12> - :Bufferlistsw (open buffer list)
 
 ## Future investigation ##
 
@@ -97,4 +101,9 @@ Vim 7.3 for MS Windows has issues w/ ruby plugins, namely they crash gvim. Googl
 [submodules]: <http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/> "Synchronizing plugins with git submodules and pathogen"
 [buffet]: <https://github.com/sandeepcr529/Buffet.vim> "Buffet on github"
 [buffet-stk]: <http://stackoverflow.com/questions/9148887/buffer-explorer-for-vim> "Stack Overflow question w/ response suggesting Buffet"
+[vim-snippets]: <https://github.com/honza/vim-snippets> "Standard snippet library for Ultisnips plugin on github"
+[Tagbar]: <http://majutsushi.github.io/tagbar/> "The Vim class outline viewer"
+[Tagbar-wiki]: <https://github.com/majutsushi/tagbar/wiki> "Support for additional filetypes"
+[jsctags]: <https://github.com/mozilla/doctorjs> "jsctags on github"
+[jsctags-issue54]: <https://github.com/mozilla/doctorjs/pull/54> "jsctags works with nodejs 0.10.x again."
 
