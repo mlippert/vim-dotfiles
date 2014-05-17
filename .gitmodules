@@ -21,10 +21,13 @@
 	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
-	url = git@github.com:mlippert/ultisnips.git
+	url = https://github.com/SirVer/ultisnips.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/buffet"]
 	path = bundle/buffet
 	url = https://github.com/sandeepcr529/Buffet.vim.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
