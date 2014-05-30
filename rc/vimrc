@@ -67,6 +67,19 @@ nnoremap <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 "noremap <silent> <F12> :LustyJuggler<CR>
 noremap <silent> <F12> :Bufferlistsw<CR>
 
+" recognize the javascript typedef type I've added to ctags and don't show the
+" property type.
+
+let g:tagbar_type_javascript = {
+    \ 'kinds' : [
+        \ 'v:global variables:0:0',
+        \ 'c:classes',
+        \ 't:typedefs:0:0',
+        \ 'm:methods',
+        \ 'f:functions',
+    \ ],
+\ }
+
 " disable the vim-session autoload of the default session
 let g:session_autoload = 'no'
 let g:session_autosave = 'no'
